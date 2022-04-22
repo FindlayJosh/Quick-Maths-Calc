@@ -1,0 +1,81 @@
+body{
+    background:url(Galaxy_brain_male_stage_3.png);
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-family: 'Pacifico', cursive;
+}
+    
+.device{
+    height: 500px;
+    width: 250px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50px;
+    background: linear-gradient(70deg, #acfdff, #9988cb);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;}
+h1{
+    text-align: center;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    width: 80%;
+}
+.screen{
+    height: 100px;
+    width: 80%;
+    padding: 0px 20px 20px 20px;
+    border: 1px solid black;
+    margin: auto;
+    background: linear-gradient(70deg, #acbbff, #be88cb);
+}
+.realScreen{
+    background: white;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+form{
+    text-align: center;
+
+}
+button{
+    float: right;
+    background: black;
+    color: #9988cb;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+input{
+    width: 80%;
+    float: left;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background: black;
+    color: blue;
+
+}
+.buttons{
+    height: 400px;
+    width: 50px;
+
+}
+.formStack{
+    height: 300px;
+    width: 60%;
+    float: left;
+}
